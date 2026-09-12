@@ -47,7 +47,8 @@ The displayed solid is masked; fluid prediction errors are retained.
 Processed data, models, code, figures and the movie are prepared separately from raw CFD.
 The original archive contains 21 cases (~15.85 GB); public raw-data permission and licensing
 are being confirmed. Publisher PDFs and private documents are excluded.
-Licensing will be added after owner confirmation; no third-party dataset is included.
+No additional reuse license is granted in this initial release; publication permission
+is distinct from a reuse license. Contact the authors regarding reuse.
 Related CFD study: https://doi.org/10.1016/j.oceaneng.2025.122756
 Related optical segmentation: https://doi.org/10.1063/5.0345365
 
@@ -72,4 +73,7 @@ not independent manual or experimental validation of either method.
 No raw CFD, publisher PDFs, private documents or credentials are committed here.
 The original checkpoint fingerprint in historical protocols identifies the local
 training artifact. Exported state-only checkpoints have different file hashes but
-the same tensors; consult the asset manifest when those artifacts are released.
+the same tensors; consult the asset manifest in the released artifact manifest.
+
+Export verification: all 48 asset-member SHA256 values checked; all selected-model tensors
+match the original, with bitwise-equal outputs on eight boundary frames from four cases.
