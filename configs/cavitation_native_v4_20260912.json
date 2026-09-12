@@ -1,0 +1,16 @@
+{
+  "seed": 20260912,
+  "steps": 2000,
+  "learning_rate": 0.001,
+  "training_cases": ["Case_13", "Case_14", "Case_16", "Case1LES"],
+  "validation_case": "Case_19",
+  "development_case": "Case_24",
+  "new_test_case": "Case_23",
+  "inputs": ["current vapor fraction", "solid mask", "distance to solid"],
+  "model": "ContextUNet unchanged architecture; new initialization, native weak targets, real data only",
+  "training": "uniform case; 50% cloud-containing frame sampling; vertical reflection50%; no synthetic ellipses",
+  "selection": "fixed final2000 checkpoint; validation19 too cloud-sparse for reliable model selection; report TRAIN LES fit and validation every500",
+  "inference": "neural argmax, no connectivity correction or alpha mask",
+  "reference": "native face connectivity at alpha>=0.5; real wall contact; uncertain regions excluded, not human truth",
+  "test_gate": "Case23 not opened until selected checkpoint frozen; never tune to this case"
+}

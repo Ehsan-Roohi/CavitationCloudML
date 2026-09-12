@@ -1,0 +1,9 @@
+{
+ "seed":20260912,"steps":1000,"learning_rate":0.0002,
+ "training_cases":["Case_13","Case_14","Case_16","Case1LES"],
+ "validation_case":"Case_19","new_test_case":null,
+ "reference_threshold":0.2,
+ "initialization":"native_v4 checkpoint; preserve acquired cloud representation while adapting reference definition",
+ "selection":"fixed final1000 extra updates; 3000 total including parent; not equal-total-budget with v5",
+ "scope":"v5 from-scratch new-target fit was poor on TRAIN LES. This is a development follow-up; no new independent test claim."
+}

@@ -1,0 +1,12 @@
+{
+  "seed":20260912,
+  "steps":2000,
+  "learning_rate":0.001,
+  "training_cases":["Case_13","Case_14","Case_16","Case1LES"],
+  "validation_case":"Case_19",
+  "new_test_case":null,
+  "reference_threshold":0.2,
+  "selection":"fixed final checkpoint; same architecture, seed and update budget as alpha50 v4",
+  "scope":"User-requested new target definition. Cases24/23 remain outside training but are exposed development comparisons, not new blind tests.",
+  "inference":"three-class neural argmax; no threshold mask or connectivity repair on predictions"
+}

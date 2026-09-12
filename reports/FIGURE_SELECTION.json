@@ -1,0 +1,14 @@
+[
+  {
+    "case": "Case_8",
+    "frame": 0,
+    "time": 0.08,
+    "selection": "largest number of misclassified valid pixels"
+  },
+  {
+    "case": "Case_20",
+    "frame": 2,
+    "time": 0.32,
+    "selection": "largest number of misclassified valid pixels"
+  }
+]

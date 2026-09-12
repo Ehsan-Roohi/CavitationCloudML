@@ -1,0 +1,16 @@
+{
+  "seed": 20260912,
+  "steps": 600,
+  "learning_rate": 0.002,
+  "training_cases": ["Case_13", "Case_14", "Case_16", "Case1LES"],
+  "validation_case": "Case_19",
+  "fresh_test_case": "Case_24",
+  "target": "unchanged weak_reference alpha>=0.5, minimum9 pixels, wall band2",
+  "inputs": ["current_alpha_v", "solid_mask", "clipped_distance_to_solid"],
+  "architecture": "four-level full-field U-Net with global pooled bottleneck context",
+  "augmentation": "50 percent topology-only synthetic images built on TRAIN geometry; translations; thin attached ligaments and detached ellipses; not CFD truth",
+  "validation_selection": "best arithmetic mean of two pooled class Dice at steps200,400,600; absent class not scored as perfect",
+  "inference": "neural logits argmax only; no connectivity or alpha threshold postprocessing",
+  "test_gate": "do not extract/rasterize/read Case24 fields until checkpoint selected and SHA256 recorded",
+  "scope": "old cases13/14/16 are now development training, not independent test. New case24 is not used to tune model. Human references still absent."
+}

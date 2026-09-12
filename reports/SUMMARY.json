@@ -1,0 +1,2093 @@
+{
+  "aggregation": "mean across cases of mean seed Dice; no frame-level significance claim",
+  "rows": [
+    {
+      "group": "training",
+      "kind": "clean",
+      "level": 0,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9696078562306369,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9897120933182754,
+        "Case_14": 0.9788029925187033,
+        "Case_16": 0.9766845510493924,
+        "Case1LES": 0.9332317880361771
+      }
+    },
+    {
+      "group": "training",
+      "kind": "clean",
+      "level": 0,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9235847815200049,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9739663093415007,
+        "Case_14": 0.952755905511811,
+        "Case_16": 0.8804878048780488,
+        "Case1LES": 0.887129106348659
+      }
+    },
+    {
+      "group": "training",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9934971969636932,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 1.0,
+        "Case_14": 1.0,
+        "Case_16": 1.0,
+        "Case1LES": 0.9739887878547727
+      }
+    },
+    {
+      "group": "training",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9894963127869765,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 1.0,
+        "Case_14": 1.0,
+        "Case_16": 1.0,
+        "Case1LES": 0.9579852511479059
+      }
+    },
+    {
+      "group": "training",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9797184059241937,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 1.0,
+        "Case_14": 1.0,
+        "Case_16": 1.0,
+        "Case1LES": 0.9188736236967748
+      }
+    },
+    {
+      "group": "training",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9614551312914337,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 1.0,
+        "Case_14": 1.0,
+        "Case_16": 1.0,
+        "Case1LES": 0.8458205251657346
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 2,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9654692518209225,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.98745467170743,
+        "Case_14": 0.9743837269436304,
+        "Case_16": 0.9724251708696677,
+        "Case1LES": 0.927613437762962
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 2,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.922019861213239,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9723926380368099,
+        "Case_14": 0.9411764705882353,
+        "Case_16": 0.8949320148331273,
+        "Case1LES": 0.8795783213947831
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.944919057108048,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.980932861312962,
+        "Case_14": 0.967379890864648,
+        "Case_16": 0.9614961496149615,
+        "Case1LES": 0.8698673266396203
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8127641559484307,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9127105666156202,
+        "Case_14": 0.8888888888888888,
+        "Case_16": 0.6890424481737414,
+        "Case1LES": 0.7604147201154721
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9390186937513326,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.980932861312962,
+        "Case_14": 0.967379890864648,
+        "Case_16": 0.9614961496149615,
+        "Case1LES": 0.8462658732127587
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7841699213380224,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9127105666156202,
+        "Case_14": 0.8888888888888888,
+        "Case_16": 0.6890424481737414,
+        "Case1LES": 0.646037781673839
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 4,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9492729865574872,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.979575552043212,
+        "Case_14": 0.955084343879141,
+        "Case_16": 0.9564998255340597,
+        "Case1LES": 0.9059322247735359
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 4,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8857045908719807,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9278996865203761,
+        "Case_14": 0.8630705394190872,
+        "Case_16": 0.9035532994923858,
+        "Case1LES": 0.8482948380560734
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9078513569858979,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9599727684857112,
+        "Case_14": 0.9340937468362974,
+        "Case_16": 0.9249812019202961,
+        "Case1LES": 0.8123577107012865
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.662351410348212,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.8341232227488151,
+        "Case_14": 0.7454545454545455,
+        "Case_16": 0.49396621078037006,
+        "Case1LES": 0.5758616624091177
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9070943507860956,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9599727684857112,
+        "Case_14": 0.9340937468362974,
+        "Case_16": 0.9249812019202961,
+        "Case1LES": 0.8093296859020772
+      }
+    },
+    {
+      "group": "training",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6594617505160038,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.8341232227488151,
+        "Case_14": 0.7454545454545455,
+        "Case_16": 0.49396621078037006,
+        "Case1LES": 0.5643030230802845
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9688851906906767,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.988292454596933,
+        "Case_14": 0.9754974798793774,
+        "Case_16": 0.9777571415163716,
+        "Case1LES": 0.9339936867700249
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9086020876540168,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9495483580369236,
+        "Case_14": 0.9065496991658648,
+        "Case_16": 0.8850621959888368,
+        "Case1LES": 0.8932480974244422
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9691099629152677,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9890265397120431,
+        "Case_14": 0.9785368364994116,
+        "Case_16": 0.975837663004131,
+        "Case1LES": 0.9330388124454853
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9206582969845517,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9744093125688217,
+        "Case_14": 0.9434917473260507,
+        "Case_16": 0.8770894851133545,
+        "Case1LES": 0.88764264292998
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9390364750983397,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9468176158944658,
+        "Case_14": 0.9477477068346346,
+        "Case_16": 0.9475371711815912,
+        "Case1LES": 0.9140434064826669
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9015626866110434,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9229307120061963,
+        "Case_14": 0.8621778935031946,
+        "Case_16": 0.9228524500786305,
+        "Case1LES": 0.8982896908561525
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9904239999288726,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9980965809876974,
+        "Case_14": 0.9969076274993158,
+        "Case_16": 0.9961804436170137,
+        "Case1LES": 0.9705113476114637
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9646974119449494,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9858262995249296,
+        "Case_14": 0.9705785815033038,
+        "Case_16": 0.9487382186327867,
+        "Case1LES": 0.9536465481187776
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9328878961261583,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9471053499955681,
+        "Case_14": 0.9481156729740091,
+        "Case_16": 0.9478561572096055,
+        "Case1LES": 0.8884744043254504
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9135604562583215,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9473666359994529,
+        "Case_14": 0.9315589463493578,
+        "Case_16": 0.9413020940042399,
+        "Case1LES": 0.8340141486802355
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9811220724458168,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9980965809876974,
+        "Case_14": 0.9969193427344977,
+        "Case_16": 0.9961737960911452,
+        "Case1LES": 0.933298569969927
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9471879548319567,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9858262995249296,
+        "Case_14": 0.9758269173968008,
+        "Case_16": 0.949142265601893,
+        "Case1LES": 0.8779563368042035
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9353143864543559,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9650065155544908,
+        "Case_14": 0.9283647580554165,
+        "Case_16": 0.9456932565473037,
+        "Case1LES": 0.9021930156602126
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7214217048932838,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.8319110740785475,
+        "Case_14": 0.37158650327540294,
+        "Case_16": 0.8138694075559804,
+        "Case1LES": 0.8683198346632045
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9671591469418197,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9873405971618562,
+        "Case_14": 0.9768886306152944,
+        "Case_16": 0.972927299549299,
+        "Case1LES": 0.9314800604408294
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9171317866834622,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.968225097269651,
+        "Case_14": 0.9354198808152935,
+        "Case_16": 0.8785291221213117,
+        "Case1LES": 0.8863530465275925
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.7785133585151658,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.8063126801869337,
+        "Case_14": 0.8092285933720872,
+        "Case_16": 0.808730027205574,
+        "Case1LES": 0.6897821332960685
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.4342670579903398,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.3683244176046537,
+        "Case_14": 0.22538212624370815,
+        "Case_16": 0.442568379978675,
+        "Case1LES": 0.7007933081343225
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9722878314078368,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9933182799327431,
+        "Case_14": 0.9893887986747,
+        "Case_16": 0.9872241495922957,
+        "Case1LES": 0.9192200974316083
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9005683631739632,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9677461004622906,
+        "Case_14": 0.9269706276084732,
+        "Case_16": 0.850315170601997,
+        "Case1LES": 0.857241554023092
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.8106113664253877,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.8222339678850745,
+        "Case_14": 0.8225461047237737,
+        "Case_16": 0.8243772659452517,
+        "Case1LES": 0.7732881271474508
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7812484346787036,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.82549906829143,
+        "Case_14": 0.7431627521999428,
+        "Case_16": 0.8136925084903698,
+        "Case1LES": 0.742639409733072
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9681499887533191,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9933287065739599,
+        "Case_14": 0.9893891598450923,
+        "Case_16": 0.9871520697449653,
+        "Case1LES": 0.902730018849259
+      }
+    },
+    {
+      "group": "training",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8921614645163676,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9687112382222597,
+        "Case_14": 0.9343807565437178,
+        "Case_16": 0.85006311889056,
+        "Case1LES": 0.8154907444089327
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9694142585951343,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9896798752902499,
+        "Case_14": 0.9783904477213211,
+        "Case_16": 0.9765122987241344,
+        "Case1LES": 0.9330744126448319
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9244302294487504,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9728069899037641,
+        "Case_14": 0.9498812648418946,
+        "Case_16": 0.8880836776440898,
+        "Case1LES": 0.8869489854052532
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9837452728182974,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9949438423840168,
+        "Case_14": 0.988550690918001,
+        "Case_16": 0.9882296275618287,
+        "Case1LES": 0.9632569304093427
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7286488797034221,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9521024842235813,
+        "Case_14": 0.41456892666332196,
+        "Case_16": 0.6059384104153115,
+        "Case1LES": 0.9419856975114733
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9738050086818404,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9923743052777674,
+        "Case_14": 0.9797299710315096,
+        "Case_16": 0.9804426714030083,
+        "Case1LES": 0.9426730870150762
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8795220814630783,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.980025436559731,
+        "Case_14": 0.885894768291772,
+        "Case_16": 0.7357585283666176,
+        "Case1LES": 0.9164095926341927
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.970621492663197,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.994856683801666,
+        "Case_14": 0.9859040306601474,
+        "Case_16": 0.9867454084261035,
+        "Case1LES": 0.9149798477648711
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.762334561922562,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9717589224148401,
+        "Case_14": 0.5886038109853571,
+        "Case_16": 0.6483071535262219,
+        "Case1LES": 0.8406683607638291
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9595023815677384,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9923743052777674,
+        "Case_14": 0.9796230159586186,
+        "Case_16": 0.9804426714030083,
+        "Case1LES": 0.8855695336315591
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8540008845716163,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.980025436559731,
+        "Case_14": 0.9077034991305449,
+        "Case_16": 0.7357585283666176,
+        "Case1LES": 0.7925160742295713
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9684099905434795,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9892850340461926,
+        "Case_14": 0.976891279543458,
+        "Case_16": 0.9751442736373822,
+        "Case1LES": 0.9323193749468853
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9155059381921012,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9671130640998814,
+        "Case_14": 0.9283907007018041,
+        "Case_16": 0.8804986824386188,
+        "Case1LES": 0.8860213055281007
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9701122332961664,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9886553589646105,
+        "Case_14": 0.976113150112876,
+        "Case_16": 0.9741457083434009,
+        "Case1LES": 0.9415347157637778
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.5372675507698673,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.7745857132347985,
+        "Case_14": 0.15861278190993808,
+        "Case_16": 0.3109641007137857,
+        "Case1LES": 0.9049076072209471
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9639748087292035,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9902173113248641,
+        "Case_14": 0.9735369955453924,
+        "Case_16": 0.9744529362695937,
+        "Case1LES": 0.9176919917769637
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7656774395335487,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9627107676849208,
+        "Case_14": 0.619369871636711,
+        "Case_16": 0.6103383880720467,
+        "Case1LES": 0.8702907307405164
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9586351325732909,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9881303974344755,
+        "Case_14": 0.9684305857574803,
+        "Case_16": 0.9683317518265612,
+        "Case1LES": 0.9096477952746468
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.5676637779294702,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.8308261678983119,
+        "Case_14": 0.24753975138273931,
+        "Case_16": 0.36250280052685085,
+        "Case1LES": 0.8297863919099789
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9517532842912858,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9901968389975572,
+        "Case_14": 0.9733141798017569,
+        "Case_16": 0.9742545604562832,
+        "Case1LES": 0.8692475579095458
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7429829462357223,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9646832169390848,
+        "Case_14": 0.6420295642752109,
+        "Case_16": 0.6156868758957058,
+        "Case1LES": 0.7495321278328877
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9645855929608107,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.986933791551297,
+        "Case_14": 0.9717361589212755,
+        "Case_16": 0.9697375555584412,
+        "Case1LES": 0.9299348658122287
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8899918137875987,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9530288975737617,
+        "Case_14": 0.8692369771526088,
+        "Case_16": 0.8550268949508494,
+        "Case1LES": 0.8826744854731747
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9512638002822313,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9784300481215021,
+        "Case_14": 0.956669685855693,
+        "Case_16": 0.9549599843040252,
+        "Case1LES": 0.9149954828477052
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.18172968084617117,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.01994488835143297,
+        "Case_14": 0.007437682833964413,
+        "Case_16": 0.02232891604788573,
+        "Case1LES": 0.6772072361514015
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9496718414484511,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.985200323129622,
+        "Case_14": 0.9627616127631272,
+        "Case_16": 0.9617839118066008,
+        "Case1LES": 0.8889415180944539
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6048994197116249,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.894893672268631,
+        "Case_14": 0.29743508380229994,
+        "Case_16": 0.4169015027014064,
+        "Case1LES": 0.8103674200741618
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9350601070629392,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9757175436412787,
+        "Case_14": 0.939544156364903,
+        "Case_16": 0.9392932419869392,
+        "Case1LES": 0.885685486258636
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.16401730995565705,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.020108028410265846,
+        "Case_14": 0.007760740006191341,
+        "Case_16": 0.02293877550556614,
+        "Case1LES": 0.6052616959006049
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9392760107869325,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9851858329967365,
+        "Case_14": 0.961273176022118,
+        "Case_16": 0.960869403233756,
+        "Case1LES": 0.8497756308951194
+      }
+    },
+    {
+      "group": "training",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.5912519338602402,
+      "cases": 4,
+      "case_values": {
+        "Case_13": 0.9005366650980816,
+        "Case_14": 0.3372869520134658,
+        "Case_16": 0.429320771645371,
+        "Case1LES": 0.6978633466840423
+      }
+    },
+    {
+      "group": "development",
+      "kind": "clean",
+      "level": 0,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9706814829786855,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9693949943079639,
+        "Case_24": 0.9627024761765939,
+        "Case_23": 0.9799469784514989
+      }
+    },
+    {
+      "group": "development",
+      "kind": "clean",
+      "level": 0,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6384017574753699,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.568081991215227,
+        "Case_24": 0.49187759727993957,
+        "Case_23": 0.8552456839309429
+      }
+    },
+    {
+      "group": "development",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 1.0,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 1.0,
+        "Case_24": 1.0,
+        "Case_23": 1.0
+      }
+    },
+    {
+      "group": "development",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 1.0,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 1.0,
+        "Case_24": 1.0,
+        "Case_23": 1.0
+      }
+    },
+    {
+      "group": "development",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9981138790035587,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 1.0,
+        "Case_24": 0.9943416370106761,
+        "Case_23": 1.0
+      }
+    },
+    {
+      "group": "development",
+      "kind": "clean",
+      "level": 0,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9441517386722866,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 1.0,
+        "Case_24": 0.8324552160168599,
+        "Case_23": 1.0
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 2,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9675081549393493,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9669509770086607,
+        "Case_24": 0.9596474364787174,
+        "Case_23": 0.9759260513306698
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 2,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6356493646427558,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5752608047690015,
+        "Case_24": 0.48344880677444185,
+        "Case_23": 0.8482384823848238
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.970025590751638,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9740993184031159,
+        "Case_24": 0.9666365135954876,
+        "Case_23": 0.9693409402563105
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8278026615765991,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.909541511771995,
+        "Case_24": 0.7884210526315789,
+        "Case_23": 0.7854454203262233
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.970025590751638,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9740993184031159,
+        "Case_24": 0.9666365135954876,
+        "Case_23": 0.9693409402563105
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 2,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8278026615765991,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.909541511771995,
+        "Case_24": 0.7884210526315789,
+        "Case_23": 0.7854454203262233
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 4,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9541526392878512,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9556477189558429,
+        "Case_24": 0.945335433521873,
+        "Case_23": 0.9614747653858379
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 4,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.5876033569416553,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5504300234558248,
+        "Case_24": 0.43167829298317606,
+        "Case_23": 0.7807017543859649
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9427136957633019,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9453631517441209,
+        "Case_24": 0.9411764705882353,
+        "Case_23": 0.9416014649575495
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6396684055069154,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5782414307004471,
+        "Case_24": 0.7223427331887202,
+        "Case_23": 0.618421052631579
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9396624214135537,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9453631517441209,
+        "Case_24": 0.9320226475389906,
+        "Case_23": 0.9416014649575495
+      }
+    },
+    {
+      "group": "development",
+      "kind": "coarse",
+      "level": 4,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.4783267467804573,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5782414307004471,
+        "Case_24": 0.2383177570093458,
+        "Case_23": 0.618421052631579
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9565026341752535,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9491267234141478,
+        "Case_24": 0.9412272115698826,
+        "Case_23": 0.97915396754173
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.5482927014012713,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.45815158191955385,
+        "Case_24": 0.43416634239323776,
+        "Case_23": 0.7525601798910221
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9700491849117739,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9688154374343406,
+        "Case_24": 0.9619734319260927,
+        "Case_23": 0.9793586853748883
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "neural_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6380858617898889,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5672177541477107,
+        "Case_24": 0.4902809538748052,
+        "Case_23": 0.8567588773471505
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9468576209364419,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9467231024187358,
+        "Case_24": 0.9464234248077421,
+        "Case_23": 0.9474263355828478
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9190403471040455,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.914539990753583,
+        "Case_24": 0.9294686744538406,
+        "Case_23": 0.9131123761047126
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9968579613755004,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9971963275922402,
+        "Case_24": 0.9964504474924695,
+        "Case_23": 0.9969271090417916
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster4_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9716047828684928,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9793483356320275,
+        "Case_24": 0.979072970579885,
+        "Case_23": 0.9563930423935658
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9458410647120706,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9473066755056615,
+        "Case_24": 0.9423395108195355,
+        "Case_23": 0.9478770078110151
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8943153417499841,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9516188607771497,
+        "Case_24": 0.7863862207362574,
+        "Case_23": 0.9449409437365451
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9952506378335692,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9973649942274281,
+        "Case_24": 0.9914425561138837,
+        "Case_23": 0.9969443631593959
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.1,
+      "method": "raster8_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9263013695676685,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9919717144311173,
+        "Case_24": 0.8283602003510028,
+        "Case_23": 0.9585721939208853
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9125983521242477,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.8914533455072648,
+        "Case_24": 0.8938632883769183,
+        "Case_23": 0.9524784224885597
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.33361316367525284,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.3722466130379985,
+        "Case_24": 0.3203541541340614,
+        "Case_23": 0.3082387238536987
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9682659819081643,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9671221666732229,
+        "Case_24": 0.960305388352313,
+        "Case_23": 0.9773703906989568
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "neural_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6361153410588468,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5681994343301991,
+        "Case_24": 0.48375722024640805,
+        "Case_23": 0.8563893685999334
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.8007700583658225,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.7974042484783466,
+        "Case_24": 0.7974820776597499,
+        "Case_23": 0.8074238489593711
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.4294877682407146,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.3461232355068405,
+        "Case_24": 0.5401856273842939,
+        "Case_23": 0.40215444183100946
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9889503374788081,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9907674470899362,
+        "Case_24": 0.9864014439537093,
+        "Case_23": 0.9896821213927787
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster4_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9181751644588846,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9658451213514999,
+        "Case_24": 0.8812851391209889,
+        "Case_23": 0.9073952329041651
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.8207228342539507,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.8224498782219754,
+        "Case_24": 0.8173078470350115,
+        "Case_23": 0.8224107775048651
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7525551528507436,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.8220438422073301,
+        "Case_24": 0.638441186132994,
+        "Case_23": 0.7971804302119065
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8_filled",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9879173107457779,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9907674470899362,
+        "Case_24": 0.9833076486468433,
+        "Case_23": 0.9896768365005544
+      }
+    },
+    {
+      "group": "development",
+      "kind": "missing",
+      "level": 0.3,
+      "method": "raster8_filled",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8875513588513466,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9658451213514999,
+        "Case_24": 0.7865967862772344,
+        "Case_23": 0.9102121689253057
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9703474450063938,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9689083153888408,
+        "Case_24": 0.9624512594986281,
+        "Case_23": 0.9796827601317127
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6361547109896426,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.562740580783966,
+        "Case_24": 0.49673216146815197,
+        "Case_23": 0.8489913907168098
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9898939893360921,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9903276270425767,
+        "Case_24": 0.9878820172164576,
+        "Case_23": 0.991472323749242
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7624338530703626,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.8836673923148148,
+        "Case_24": 0.7902848672146882,
+        "Case_23": 0.6133492996815847
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9871309887263825,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9892514555583171,
+        "Case_24": 0.98904054067759,
+        "Case_23": 0.9831009699432401
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster4_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.9133364094574224,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9570859603134817,
+        "Case_24": 0.9652927734177238,
+        "Case_23": 0.8176304946410617
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9865046040554809,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9899096662544561,
+        "Case_24": 0.9793853179930515,
+        "Case_23": 0.9902188279189351
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6802644291807738,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9184815107990315,
+        "Case_24": 0.45200647795971755,
+        "Case_23": 0.670305298783572
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9852642825300987,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9892461116370144,
+        "Case_24": 0.9834735942780597,
+        "Case_23": 0.983073141675222
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.02,
+      "method": "raster8_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.8570315864909408,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9574670163831605,
+        "Case_24": 0.7942188694501823,
+        "Case_23": 0.8194088736394795
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9690007866838202,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9677063591581301,
+        "Case_24": 0.9602113297208043,
+        "Case_23": 0.9790846711725262
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6234802271119569,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.55336914792206,
+        "Case_24": 0.49385864053809164,
+        "Case_23": 0.823212892875719
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9785200809273475,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9775615161331047,
+        "Case_24": 0.9765210845136739,
+        "Case_23": 0.981477642135264
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.49581298003855073,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5705027044547123,
+        "Case_24": 0.6195971841725877,
+        "Case_23": 0.2973390514883523
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9803239287724043,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9839381359613825,
+        "Case_24": 0.9778808218661847,
+        "Case_23": 0.9791528284896458
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster4_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.7380110205918039,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9028900754301213,
+        "Case_24": 0.6554133079142124,
+        "Case_23": 0.6557296784310781
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9738602018059016,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9752798943137039,
+        "Case_24": 0.9697913129260173,
+        "Case_23": 0.9765093981779835
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.48409199811065334,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.6748125836069404,
+        "Case_24": 0.4739462843278755,
+        "Case_23": 0.3035171263971441
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9785591837854081,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9838971777504187,
+        "Case_24": 0.9728705965101055,
+        "Case_23": 0.9789097770957002
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.05,
+      "method": "raster8_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6762342619390568,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9119455492572527,
+        "Case_24": 0.45053044983927676,
+        "Case_23": 0.6662267867206411
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9646929245649946,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9631934945188596,
+        "Case_24": 0.9553492004950104,
+        "Case_23": 0.9755360786811137
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "neural",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.5980922410289086,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.5395275307834205,
+        "Case_24": 0.4835053071298616,
+        "Case_23": 0.7712438851734434
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9602919902425433,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9576897390910911,
+        "Case_24": 0.957120852488719,
+        "Case_23": 0.9660653791478199
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.019752864075988908,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.015917986147970027,
+        "Case_24": 0.027495658606100388,
+        "Case_23": 0.015844947473896313
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9719431391168647,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.9738535665461718,
+        "Case_24": 0.9715347042970999,
+        "Case_23": 0.9704411465073224
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster4_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6221549693618841,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.7446199449722114,
+        "Case_24": 0.7037561044496455,
+        "Case_23": 0.41808885866379514
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.9507994819919473,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.951392031714541,
+        "Case_24": 0.9472261691718712,
+        "Case_23": 0.9537802450894298
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.016246711617981184,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.016128880470582835,
+        "Case_24": 0.018083798633019624,
+        "Case_23": 0.014527455750341095
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8_smooth",
+      "cls": "attached_2d",
+      "mean_case_dice": 0.970874676419558,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.97359195266297,
+        "Case_24": 0.9694240039263904,
+        "Case_23": 0.9696080726693136
+      }
+    },
+    {
+      "group": "development",
+      "kind": "noise",
+      "level": 0.1,
+      "method": "raster8_smooth",
+      "cls": "disconnected_2d",
+      "mean_case_dice": 0.6163309147709167,
+      "cases": 3,
+      "case_values": {
+        "Case_19": 0.7681527679175785,
+        "Case_24": 0.6507057136613082,
+        "Case_23": 0.43013426273386335
+      }
+    }
+  ]
+}
